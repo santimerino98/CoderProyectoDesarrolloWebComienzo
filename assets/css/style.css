@@ -93,6 +93,11 @@ button:hover {
     margin-bottom: 20px;
 }
 
+.efectoLogo:hover{
+    transform:scale(1.05);
+    transition: 1s;
+}
+
 a:visited{
     color: white;
 }
