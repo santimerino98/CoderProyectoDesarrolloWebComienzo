@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    color: white;
+    background-color: #3E2C41;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 70px auto 150px;
+    grid-template-areas:"nav     nav"
+                        "header  header"
+                        "main    main"
+                        "footer  footer";
+}
+
+.nav{
+    grid-area: nav;    
+    background-color: #261C2C;
+}
+
+.header{
+    grid-area: header;    
+    font-size: 1rem;
+    text-align: center;
+}
+
+.main{
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .imgIndex{
+    width: 250px;
+}
+
+.footer{
+    grid-area: footer;    
+    background-color: #261C2C;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    margin-top: auto;
+}
+
+button{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #2c0b8e;
+    background: #2c0b8e;
+}
+
+button:hover {
+    background: #fff;
+    color: #2c0b8e
+}
+
+.navBar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+
+
+.navBar a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.imgNavbar{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: red;
+    font-size: 0.9rem;
+}
+
+.sectionPrincipal{
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px;
+}
+
+.sectionPrincipal img{
+    margin: 10px;
+}
+
+.footer div{
+    margin: 10px;
+    text-align: center;
+}
+
+.footer div ul{
+    list-style: none;
+}
+
+.footer div h3{
+    font-size: 1rem;
+}
+
+.footer div ul li a{
+    text-decoration: none;
+}
+
+.footer div ul li a img{
+    width: 20px;
+    margin: 0 5px;
+    color: white;
+}
+
+.rrss{
+    display: flex;
+    justify-content: center;
+}
+
+.footerAtencion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main .sectionCard{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main .sectionCard .cardProduct{
+    width: 250px;
+    background-color: #5C527F;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.cardProduct img{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.cardProduct p{
+    margin-bottom: 10px;
+}
+
+.section-form-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 5px;
+    font-size: 3rem;
+    margin: 50px;
+}
+
+.section-form-contact label{
+    margin: 10px 0px;
+    font-size: 1.2rem;
+}
+
+.section-form-contact input{
+    width: 200px;
+    height: 20px;
+}
+
+.section-form-contact .phone1{
+    width: 60px;
+}
+
+.section-form-contact .phone2{
+    width: 120px;
+}
+
+.section-form-contact .message{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.headerCuenta{
+    margin-bottom: 100px;
+}
+
+.main .section-form-cuenta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main .section-form-cuenta div{
+    margin: 50px;    
+}
+
+.header .headerCuenta{
+    font-size: 3rem;
+}
+
+.section-form-cuenta h3{
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.section-form-cuenta label{
+    font-size: 1rem;
+}
+
+.section-form-cuenta{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.section-form-cuenta button{
+    margin-top: 10px;
+}
+
+.cajaCarrito{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cajaCarrito button{
+    margin-top: 30px;
+}
+
+.cajaIniciar{
+    display: flex;
+    flex-direction: column;
+}
+
+.cajaIniciar label{
+    margin: 10px;
+}
+
+.cajaRegistrar{
+    display: flex;
+    flex-direction: column;
+}
+
+.cajaRegistrar label{
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+
+.container{
+    color: white;
+    background-color: #3E2C41;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 50px auto 150px;
+    grid-template-areas:"nav     nav"
+                        "header  header"
+                        "main    main"
+                        "footer  footer";
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.nav .navBar li {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.main .imgIndex{
+    width: 500px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+.footer div h3{
+    font-size: 1.5rem;
+}
+
+a:hover{
+    font-size: 1.2rem;
+}
+
+.section-form-contact label{
+    margin: 10px 0px;
+    font-size: 1.2rem;
+}
+
+.section-form-contact input{
+    width: 600px;
+    height: 20px;
+}
+
+.section-form-contact .phone1{
+    width: 100px;
+}
+
+.section-form-contact .phone2{
+    width: 500px;
+}
+
+.section-form-contact .message{
+    width: 600px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+}
+
+@media (min-width:1200px){
+
+.nav .navBar li {
+        font-size: 1.5rem;
+}
+
+.nav div a img{
+    width: 400px;
+}
+
+.header h1{
+    font-size: 3rem;
+}
+
+.main .sectionPrincipal article{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.main .imgIndex{
+    width: 700px;
+}
+
+.footer{
+    font-size: 1.5rem;
+}
+
+.footer div .rrss li a img{
+    width: 40px;
+}
+
+.cajaCarrito h3{
+    font-size: 2rem;
+}
+
+.cajaCarrito button{
+    width: 200px;
+}
+
+.section-form-contact label{
+    margin: 10px 0px;
+    font-size: 1.2rem;
+}
+
+.section-form-contact input{
+    width: 1000px;
+    height: 30px;
+}
+
+.section-form-contact .phone1{
+    width: 200px;
+}
+
+.section-form-contact .phone2{
+    width: 790px;
+}
+
+.section-form-contact .message{
+    width: 1000px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.section-form-contact label{
+    font-size: 2rem;
+}
+
+.main .section-form-cuenta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+}
