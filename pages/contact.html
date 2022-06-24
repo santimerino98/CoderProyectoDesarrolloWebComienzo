@@ -9,23 +9,42 @@
     <title>Indumentaria Store</title>
 </head>
 <body class="contenedor">
-    <nav class="navegador d-md-flex justify-content-md-between align-content-center">
-
-        <div class="col-12 col-md-4 imgNavbar"><a href="../index.html"><img class="efectoLogo" src="../assets/img/logo-removebg-preview.png" alt=""></a></div>
+    <nav class="navegador row-cols-3 d-md-flex flex-wrap justify-content-md-between align-content-center">
+    
+        <div class="col-12 col-md-4 col-xl-2 imgNavbar"><a href="../index.html"><img class="efectoLogo" src="../assets/img/logo-removebg-preview.png" alt=""></a></div>
         <ul class="col-12 col-md-6 navBar">
             <li><a href="./tienda.html">Tienda</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
             <li><a href="./cuenta.html">Cuenta</a></li>
-            <li>Búsqueda</li>
             <li><a href="./carrito.html">Carrito</a></li>
         </ul>
+    
+        <form class="botonBuscar d-flex align-content-center align-items-center col-11 col-md-11 col-xl-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+            <button class="btn btn-danger">Buscar</button>
+        </form>
     </nav>
 
     <header class="header"><h1>Mensajes y consultas</h1></header>
 
-    <main class="main">
-        <section>
-            <form class="section-form-contact" action="">
+    <main class="main d-flex flex-column mt-5">   
+            <div class="mb-3 col-11">
+                <label for="exampleFormControlInput1" class="form-label">Motivo del contacto</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Motivo del contacto">
+            </div>
+            <div class="mb-3 col-11">
+                <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y apellido">
+            </div>
+            <div class="mb-3 col-11">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 col-11">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <!-- <form class="section-form-contact" action="">
                     <label for="">Motivo del contacto</label>
                     <input type="text">
                     <label for="">Nombre y apellido</label>
@@ -39,8 +58,7 @@
                     </div>
                     <label for="">Mensaje</label>
                     <textarea class="message"></textarea>
-            </form>
-        </section>
+            </form> -->
     </main>
 
     <footer class="pieDePag d-flex flex-md-row justify-content-md-around justify-content-xl-between"">

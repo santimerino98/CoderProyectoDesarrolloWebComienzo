@@ -10,16 +10,20 @@
     <title>Indumentaria Store</title>
 </head>
 <body class="contenedor">
-    <nav class="navegador d-md-flex justify-content-md-between align-content-center">
+    <nav class="navegador row-cols-3 d-md-flex flex-wrap justify-content-md-between align-content-center">
 
-        <div class="col-12 col-md-4 imgNavbar"><a href=""><img class="efectoLogo" src="./assets/img/logo-removebg-preview.png" alt=""></a></div>
+        <div class="col-12 col-md-4 col-xl-2 imgNavbar"><a href=""><img class="efectoLogo" src="../assets/img/logo-removebg-preview.png" alt=""></a></div>
         <ul class="col-12 col-md-6 navBar">
             <li><a href="./pages/tienda.html">Tienda</a></li>
             <li><a href="./pages/contact.html">Contacto</a></li>
             <li><a href="./pages/cuenta.html">Cuenta</a></li>
-            <li>Búsqueda</li>
             <li><a href="./pages/carrito.html">Carrito</a></li>
         </ul>
+
+        <form class="botonBuscar d-flex align-content-center align-items-center col-11 col-md-11 col-xl-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+            <button class="btn btn-danger">Buscar</button>
+        </form>
     </nav>
 
     <header class="header">
@@ -30,7 +34,28 @@
         <section class="sectionPrincipal">
             <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias rem sed doloribus eius rerum dolorum, obcaecati aspernatur temporibus adipisci libero maxime corporis iusto unde laboriosam ipsa quam deserunt voluptates hic officiis quia corrupti. Dicta commodi eius dolores blanditiis explicabo nulla animi quos ipsa cumque fugit nihil, enim iure accusamus ullam.</article>
 
-            <img class="imgIndex" src="./assets/img/modelos-ropa.webp" alt="">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/modelos-ropa.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/modelos-ropa.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/modelos-ropa.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- <img class="imgIndex" src="./assets/img/modelos-ropa.webp" alt=""> -->
         </section>
     </main>
     

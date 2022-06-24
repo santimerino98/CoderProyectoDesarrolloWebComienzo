@@ -43,7 +43,7 @@
     margin-top: auto;
 }
 
-button{
+.buttonCart{
     min-width: 130px;
     color: #fff;
     padding: 5px 10px;
@@ -57,9 +57,14 @@ button{
     background: #2c0b8e;
 }
 
-button:hover {
+.buttonCart:hover {
     background: #fff;
     color: #2c0b8e
+}
+
+.botonBuscar{
+    margin: 10px;
+    padding: 10px;
 }
 
 .navBar{
@@ -78,10 +83,12 @@ button:hover {
 .navBar a{
     text-decoration: none;
     padding: 5px;
+    font-size: 1.5rem;
 }
 
 .imgNavbar{
-    text-align: center;
+    text-align: center;    
+    margin: 0;
     margin-bottom: 20px;
 }
 
@@ -151,7 +158,7 @@ a:hover{
     flex-wrap: wrap;
 }
 
-.main .sectionCard .cardProduct{
+.main .sectionCard .card{
     width: 250px;
     background-color: #5C527F;
     text-align: center;
@@ -423,6 +430,16 @@ a:hover{
 
     .section-form-cuenta h3{
         font-size: 5rem;
+    }
+
+    .botonBuscar .form-control {
+        width: 150px;
+        height: 50px;
+    }
+
+    .botonBuscar{
+        margin: 0px;
+        padding: 0px;
     }
 }
 
