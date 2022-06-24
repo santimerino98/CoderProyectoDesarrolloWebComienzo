@@ -45,7 +45,6 @@
 
 button{
     min-width: 130px;
-    height: 40px;
     color: #fff;
     padding: 5px 10px;
     font-weight: bold;
@@ -239,6 +238,7 @@ a:hover{
 }
 
 .cajaCarrito{
+    margin-top: 50px;
     font-size: 1rem;
     text-align: center;
 }
@@ -279,6 +279,10 @@ a:hover{
         font-size: 1.15rem;
     }
 
+    a:hover{
+        font-size: 1.2rem;
+    }
+
     .header h1{
         font-size: 2.5rem;
     }
@@ -291,6 +295,30 @@ a:hover{
         width: 500px;
     }
 
+    .section-form-contact label{
+        margin: 10px 0px;
+        font-size: 1.2rem;
+    }
+    
+    .section-form-contact input{
+        width: 600px;
+        height: 20px;
+    }
+    
+    .section-form-contact .phone1{
+        width: 100px;
+    }
+    
+    .section-form-contact .phone2{
+        width: 500px;
+    }
+    
+    .section-form-contact .message{
+        width: 600px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
     .pieDePag div h3{
         font-size: 1.5rem;
     }
@@ -301,6 +329,22 @@ a:hover{
 
     .pieDePag div .rrss li a img{
         width: 35px;
+    }
+
+    .cajaCarrito{        
+        margin-top: 100px;
+    }
+
+    .cajaIniciar label{
+        font-size: 1.5rem;
+    }
+
+    .cajaRegistrar label{
+        font-size: 1.5rem;
+    }
+
+    .section-form-cuenta h3{
+        font-size: 4rem;
     }
 }
 
@@ -326,6 +370,33 @@ a:hover{
         width: 700px;
     }
 
+    .section-form-contact label{
+        margin: 10px 0px;
+        font-size: 1.2rem;
+    }
+    
+    .section-form-contact input{
+        width: 1000px;
+        height: 30px;
+    }
+    
+    .section-form-contact .phone1{
+        width: 200px;
+    }
+    
+    .section-form-contact .phone2{
+        width: 790px;
+    }
+    
+    .section-form-contact .message{
+        width: 1000px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    .section-form-contact label{
+        font-size: 2rem;
+    }
+
     .pieDePag div h3{
         font-size: 2rem;
     }
@@ -336,6 +407,22 @@ a:hover{
 
     .pieDePag div .rrss li a img{
         width: 50px;
+    }
+
+    .cajaCarrito{        
+        margin-top: 100px;
+    }
+
+    .cajaIniciar label{
+        font-size: 2rem;
+    }
+
+    .cajaRegistrar label{
+        font-size: 2rem;
+    }
+
+    .section-form-cuenta h3{
+        font-size: 5rem;
     }
 }
 
@@ -437,32 +524,7 @@ a:hover{
     width: 200px;
 }
 
-.section-form-contact label{
-    margin: 10px 0px;
-    font-size: 1.2rem;
-}
 
-.section-form-contact input{
-    width: 1000px;
-    height: 30px;
-}
-
-.section-form-contact .phone1{
-    width: 200px;
-}
-
-.section-form-contact .phone2{
-    width: 790px;
-}
-
-.section-form-contact .message{
-    width: 1000px;
-    height: 100px;
-    margin-bottom: 20px;
-}
-.section-form-contact label{
-    font-size: 2rem;
-}
 
 .main .section-form-cuenta{
     display: flex;
