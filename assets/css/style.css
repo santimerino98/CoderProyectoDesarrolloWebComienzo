@@ -43,6 +43,8 @@
     margin-top: auto;
 }
 
+
+
 .buttonCart{
     min-width: 130px;
     color: #fff;
@@ -377,6 +379,11 @@ a:hover{
         width: 700px;
     }
 
+    .carousel{
+        width: 1000px;
+        margin: auto;
+    }
+
     .section-form-contact label{
         margin: 10px 0px;
         font-size: 1.2rem;
@@ -443,111 +450,3 @@ a:hover{
     }
 }
 
-/* @media (min-width: 768px) {
-
-.contenedor{
-    color: white;
-    background-color: #3E2C41;
-    min-height: 100vh;
-}
-
-.navegador{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;    
-}
-
-.navegador .navBar li {
-    font-size: 1.2rem;
-    padding: 10px;
-}
-
-
-
-.pieDePag{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 1rem;
-}
-
-.pieDePag div h3{
-    font-size: 1.5rem;
-}
-
-a:hover{
-    font-size: 1.2rem;
-}
-
-.section-form-contact label{
-    margin: 10px 0px;
-    font-size: 1.2rem;
-}
-
-.section-form-contact input{
-    width: 600px;
-    height: 20px;
-}
-
-.section-form-contact .phone1{
-    width: 100px;
-}
-
-.section-form-contact .phone2{
-    width: 500px;
-}
-
-.section-form-contact .message{
-    width: 600px;
-    height: 100px;
-    margin-bottom: 20px;
-}
-}
-
-@media (min-width:1200px){
-
-.navegador .navBar li {
-        font-size: 1.5rem;
-}
-
-.navegador div a img{
-    width: 400px;
-}
-
-.header h1{
-    font-size: 3rem;
-}
-
-.main .sectionPrincipal article{
-    font-size: 2rem;
-    margin-top: 20px;
-}
-
-
-
-.pieDePag{
-    font-size: 1.5rem;
-}
-
-.pieDePag div .rrss li a img{
-    width: 40px;
-}
-
-.cajaCarrito h3{
-    font-size: 2rem;
-}
-
-.cajaCarrito button{
-    width: 200px;
-}
-
-
-
-.main .section-form-cuenta{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-} */
